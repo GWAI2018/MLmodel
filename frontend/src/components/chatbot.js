@@ -1,40 +1,33 @@
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
-import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import React, {useState, useEffect} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const BotRedirect = ({ url, message }) => {
-	const [fbus, setfbus] = useState([])
-	useEffect(() => {
 
+	const name = ["Colombo","colombo","Kalutara","kalutara","Gampaha","gampaha"];
 
+	useEffect( ()=> {
 		axios
-		.get('https://mlmodeltraining.azurewebsites.net/predict/galle')
+		.get('https://mlmodeltraining.azurewebsites.net/predict/name')
 		.then((res) => {
-		   const arr = res.data;
-		   console.log(arr);
-		   setfbus(arr);
-  
-		});
-	
-			});
+				const message = res.data;
+        		console.log(message);
+		})
 		
-	   
-
+	})
+     
   return (
-    <div>
-      <a href={url} target="_blank">
-		{message}
-       
-		{fbus.map((item) => (
-           <div>  
-             <b> <h7>Final Destination : {item.message}</h7></b>
-           
-             
-            </div>
-              ))}
 
-      </a>
+    <div>
+      {/* <a href="https://mlmodeltraining.azurewebsites.net/predict/name" target="_blank">
+	   {message}
+	
+
+      </a> */}
+	  <a class="btn btn-primary" href="https://mlmodeltraining.azurewebsites.net/predict/name" role="button">{message}</a>
 	 
     </div>
   );
@@ -69,8 +62,8 @@ const steps = [
 		id: '4',
     component: (
       <BotRedirect
-        message="Pharmacies"
-        url="https://mlmodeltraining.azurewebsites.net/predict/galle"
+         message = "Pharamcies"
+        // url="https://mlmodeltraining.azurewebsites.net/predict/{name}"
 	
 		
       />
@@ -96,6 +89,8 @@ const config = {
 	
 	floating: true,
 };
+
+
 
 function App() {
 	return (
