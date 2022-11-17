@@ -1,0 +1,32 @@
+.sideNavigation{
+    width:300px;
+    height: 401px;
+    background-color: lightgray;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.sideNavigation .nav_sideNavigation .ul_SideNavigation{
+    width:300px;
+    height: 401px;
+}
+
+.sideNavigation .nav_sideNavigation .ul_SideNavigation li{
+    list-style: none;
+    padding: 21px;
+    border-bottom:1px solid black ;
+    width:250px;
+    text-align: left;
+
+}
+.sideNavigation .nav_sideNavigation .ul_SideNavigation li a{
+color:black;
+font-weight: bold;
+text-decoration: none;
+}
+
+.sideNavigation .nav_sideNavigation .ul_SideNavigation .li a:hover{
+    color: red;
+}
+.sideNavigation .nav_sideNavigation .ul_SideNavigation li a.current{
+    color: red;
+}

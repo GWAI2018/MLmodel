@@ -1,0 +1,261 @@
+.container {
+      height: 48px; 
+}
+
+.content .home-content{
+    background-image: url(../images/home.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 70px;
+}
+
+/*make appointments*/
+.content .home-content .make_appointmnets{
+     height: 50px;
+}
+
+.content .home-content .make_appointmnets .btn{
+    margin-left: 1100px; 
+    margin-top: 400px; 
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.content .home-content .make_appointmnets .btn:hover {
+    background-color:black;
+    color: red;
+  }
+
+/*logo*/
+.logo{
+    float: left;
+    width: 20%;
+    display: inline;
+}
+    
+.logo img{
+    width: 160px;
+    height: 160px;
+}
+
+/*nav bar*/
+.container .navbar{
+    float: left;
+    width:80%;
+    display: inline;
+    height: 10px;
+}
+
+.container .navbar .navbar .navbar-nav .nav-item a{
+    color: red;
+    font-weight: bold;
+    padding-right: 45px;
+    padding-left: 15px;
+    width: 200px;
+}
+
+.container .navbar .navbar .navbar-nav .nav-item a:hover{
+    color: black;
+}
+
+/*login button*/
+.container .login .btn{
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 120px;
+    float: right;
+}
+
+.container .login .btn i{
+   padding:5px;
+}
+
+.container .login .btn:hover {
+    background-color:black;
+    color: red;
+  }
+
+/*bottom content*/
+
+.content .bottom-content{
+    display: inline-block;
+    height: 200px;
+    margin-top: 550px;
+}
+
+/*bottom content left part*/
+.content .bottom-content .left-content{
+    display: inline-block;
+    background-color:black;
+    height: 270px;
+    width:390px;
+    margin-left: 10px;
+    color:white;
+    opacity: 0.5;
+    align-content: center;
+}
+
+.content .bottom-content .left-content h1{
+    text-align: center;
+}
+
+.content .bottom-content .left-content p{
+    text-align: left;
+    margin: 10px;
+}
+
+.content .bottom-content .left-content .btn{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 100px;
+    float: right;
+    opacity: 1;
+    margin: 5px;
+}
+
+.content .bottom-content .left-content .btn:hover{
+    background-color:black;
+    color: red;
+}
+
+/*bottom content right part*/
+.content .bottom-content .right-content{
+    float: right;
+    background-color:black;
+    height: 270px;
+    width:390px;
+    margin-left: 50px;
+    color:white;
+    opacity: 0.5;
+    align-content: center;
+}
+
+.content .bottom-content .right-content h1{
+    text-align: center;
+}
+
+.content .footer{
+    height: 80px;
+    margin-left: 190px;
+
+}
+
+.content .footer .footer_ul{
+    margin-top: 120px;
+    text-decoration: none;
+    color: red;
+    margin-left: 100px;
+
+}
+
+.content .footer .footer_ul .li_items{
+    display: inline;
+    margin-top: 50px;
+    margin-left: 50px;
+   
+}
+
+.content .footer .footer_ul .li_items a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.content .footer .footer_ul .li_items a:hover{
+     color: black;
+}
+
+.content .footer .footer_ul .li_items a:active{
+    color: black;
+}
+
+/***************************************************************
+****************************Login Page**************************
+****************************************************************/
+
+/*Home button*/
+.container .home .btn{
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 150px;
+    float: right;
+}
+
+.container .home .btn i{
+   padding:5px;
+}
+
+.container .home .btn:hover {
+    background-color:black;
+    color: red;
+  }
+
+/*login content*/
+.content .login-content{
+    background-image: url(../images/login_image1.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 70px;
+    margin-top: 1px;
+}
+
+.content .login-content h3{
+    margin-top: 200px;
+    margin-left: 1100px;                                                                                
+    font-weight: bold;
+}
+
+.content .login-content input{
+    margin-top: 20px;
+    margin-left: 1000px;  
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    padding: 2px;
+    height: 35px;
+}
+
+.content .login-content .btn{
+    margin-left: 1150px;  
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.content .login-content .btn:hover {
+    background-color:black;
+    color: red;
+  }
+
+  .content .login-content .login_links{
+    margin-left: 980px;  
+    margin-top: 10px;
+  }
+
+  .content .login-content .login_links .ul_links .li_links{
+    list-style-type: none;
+  }
+
+  .content .login-content .login_links .ul_links .li_links a{
+    color: red;
+    text-decoration: none;
+  }
+
+  .content .login-content .login_links .ul_links .li_links a:hover{
+        color: black;
+        font-weight: bold;
+  }
