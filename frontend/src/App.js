@@ -9,7 +9,7 @@ function App() {
      <Router>
        <Switch>
        
-          <Route path="/chat"><ChatBotHelper/></Route>
+          <Route path="/"><ChatBotHelper/></Route>
        </Switch>
      </Router>
    </div>
